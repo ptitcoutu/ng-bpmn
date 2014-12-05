@@ -1,4 +1,4 @@
 {
-  "directory":"src/js/dep",
+  "directory":"src/dep",
   "json": "bower.json"
 }
