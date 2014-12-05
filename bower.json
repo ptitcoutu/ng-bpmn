@@ -1,0 +1,14 @@
+{
+  "name": "bpmnservices",
+  "description": "BPMN API to check and manage BPMN semantics and diagrams of an XML bpmn definitions file and transform BPMN <-> js object",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ptitcoutu/bpmnservices",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular-latest": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x"
+  }
+}
