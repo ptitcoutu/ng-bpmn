@@ -1,4 +1,4 @@
 {
-  "directory":"src/dep",
+  "directory":"src/lib",
   "json": "bower.json"
 }

@@ -1,1 +1,6 @@
 /src/dep
+/src/lib/angular-latest
+/src/lib/angular-loader
+/src/lib/angular-mocks
+/src/lib/angular-route
+/src/lib/angular
