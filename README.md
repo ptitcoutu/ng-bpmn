@@ -25,8 +25,11 @@ How to use demo
 ===============
 
   > npm install --global gulp
+  
   > npm install -save-dev gulp
+  
   > npm install --save-dev browser-sync
+  
   > gulp serve
 
 The page demo page will be accessible at http://localhost:3000/demo/omg_order.html
