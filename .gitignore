@@ -4,3 +4,8 @@
 /src/lib/angular-mocks
 /src/lib/angular-route
 /src/lib/angular
+/node_modules/.bin
+/node_modules/browser-sync
+/node_modules/gulp
+/src/lib/angular-xml
+/src/lib/x2js

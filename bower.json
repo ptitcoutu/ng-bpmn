@@ -9,6 +9,7 @@
     "angular-latest": "1.3.x",
     "angular-route": "1.3.x",
     "angular-loader": "1.3.x",
-    "angular-mocks": "~1.3.x"
+    "angular-mocks": "~1.3.x",
+    "angular-xml": "~2.0.0"
   }
 }

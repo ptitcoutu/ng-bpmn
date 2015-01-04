@@ -1,14 +1,20 @@
 <!doctype html>
-<html ng-app="omg_order.js">
+<html ng-app="omg_order">
 <head>
     <meta charset="utf-8">
-    <script src="../src/angular/angular.min.js"></script>
-	<script src="../src/angular-route/angular-route.min.js"></script>
+    <script src="../src/lib/angular/angular.js"></script>
+    <script src="../src/lib/x2js/xml2json.min.js"></script>
+    <script src="../src/angular-xml-ng-bpmn.js"></script>
+	<script src="../src/lib/angular-route/angular-route.min.js"></script>
     <script src="../src/ng-bpmn.js"></script>
-    <script src="../src/omg_order.js"></script>
+    <script src="omg_order.js"></script>
 </head>
 
-<body>
+<body ng-controller="omgOrderController as bpmnSvc">
 This demo show how to read BPMN Definitions File and check the validity of the definitions.
+version : {{bpmnSvc.omgOrderDef.version}}
+<br />
+Content of the definition is : <br />
+<pre>{{bpmnSvc.omgOrderDef.content | json:2}}</pre>
 </body>
 </html>
