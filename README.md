@@ -32,6 +32,6 @@ How to use demo
   
   > gulp serve
 
-The page demo page will be accessible at http://localhost:3000/demo/omg_order.html
+The demo page will be accessible at http://localhost:3000/demo/omg_order.html
 
 
